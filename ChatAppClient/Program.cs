@@ -18,5 +18,9 @@ namespace ChatAppClient
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+        //static System.Net.Sockets.Socket socket = new System.Net.Sockets.Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+        //socket.Connect("localhost", 100);
+        //byte[] buffer = Encoding.UTF8.GetBytes();
+
     }
 }
